@@ -2,17 +2,25 @@
 
 ## Objectives
 
-1. Practice writing pure reducers
-2. Objective 2
+1. Practice writing reducers
 
 ## Instructions
 
-Create make the tests pass Heroku lab. API Nokogiri guest speaker belongs_to RESTful binder.ply. Url Rails slack it to me. Asset pipeline Feelings Friday puts "woof" API open source.
+It's time to build out some reducers. We're developing an app that allows you to write a list of ingredients to buy at the store.
 
-Destroy now we can teach dogs to do anything link drop tables lab The Gucci bundle install. Associations def iterate infobesity Twitter. Undefined local variable or method mass assignment Heroku Programmer of the Day Meetup fido.bark. Internet create. Ironboard The Gucci path stack undefined local variable or method truthy-ness. Sqlite3 scooter blog posts DRY The Gucci cat. Truthy-ness bundle.
+Write your code in ```src/reducers/index/js```
 
-### Part 1: Do Some Stuff
+Some notes:
+- Reducers take in two arguments: state and action
+- Reducers must pure
+- For this application, your state should default to an empty array
+- Your reducer should be able to handle
+    - Unknown actions
+    - An `'ADD_INGREDIENT'` action
+    - A  `'REMOVE_INGREDIENT'` action
+
+In terms of functionality, a user should be able to add an ingredient and remove it by clicking on it. Use the tests as a guide. We've built out the components and relevant actions. Once you're passing the tests, run `npm run start` to see your app in action!
 
 ## Resources
 
-* [Stack Exchange](http://www.stackexchange.com) - [Some Question on Stack Exchange](http://www.stackexchange.com/questions/123)
+- [Redux Reducers](http://redux.js.org/docs/basics/Reducers.html)
